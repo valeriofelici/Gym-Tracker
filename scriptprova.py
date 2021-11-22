@@ -26,11 +26,7 @@ insertDataQuery.prepare(
     """
 )
 
-data = [
-    #("Valerio", "Ingegnere", "valeriofelici996@gmail.com"),
-    #("Caterina", "Farmacista", "cateth_92@hotmail.it"),
-    #("Federica", "UX Researcher", "federica_fe@gmail.com"),
-]
+data = []
 
 #Sample data
 for name, job, email in data:
