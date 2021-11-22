@@ -122,8 +122,8 @@ class AddDialog(QDialog):
         self.carico_dischiField.setObjectName("Carico Dischi")
         self.ripetizioniField = QLineEdit()
         self.ripetizioniField.setObjectName("Ripetizioni")
-        self.tempo_recuperField = QLineEdit()
-        self.tempo_recuperField.setObjectName("Tempo Recupero")
+        self.tempo_recuperoField = QLineEdit()
+        self.tempo_recuperoField.setObjectName("Tempo Recupero")
         # Lay out the data fields
         layout = QFormLayout()
         layout.addRow("Gruppo Muscolare:", self.gruppo_muscolareField)
